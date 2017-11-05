@@ -28,6 +28,8 @@ class FoodSearch extends React.Component {
       });
 
       Client.search(value, foods => {
+        //todo remove
+        debugger;
         this.setState({
           foods: foods.slice(0, MATCHING_ITEM_LIMIT)
         });

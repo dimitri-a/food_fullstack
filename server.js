@@ -25,6 +25,8 @@ const COLUMNS = [
   "description"
 ];
 app.get("/api/food", (req, res) => {
+  //todo remove
+  debugger;
   const param = req.query.q;
 
   if (!param) {
@@ -43,6 +45,10 @@ app.get("/api/food", (req, res) => {
     limit 100
   `
   );
+
+  //todo remove
+  debugger;
+  console.log('hahaha');
 
   if (r[0]) {
     res.json(
