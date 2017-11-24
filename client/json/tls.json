@@ -1,0 +1,86 @@
+{
+    "symbol":"tls.asx",
+    "realSymbol":"tls.asx",
+    "units":"price",
+    "currency":"AUD",
+    "tz":"AEDT",
+    "tickTable":"0.001<0.1,0.005<2,0.010",
+    "quote":{
+    "pctChange":0,
+        "quoteBases":{
+
+    },
+    "low":3.45,
+        "open":3.47,
+        "vwap":3.465971911,
+        "value":54227878.16,
+        "time":"2017-11-24 15:59:38",
+        "change":0,
+        "price":3.47,
+        "status":"OPEN",
+        "close":3.47,
+        "bid":3.46,
+        "prevClose":3.47,
+        "lastTradeTime":"2017-11-24 15:59:38",
+        "ask":3.47,
+        "volume":15481350,
+        "high":3.48,
+        "tradeCount":4776
+},
+    "sequence":2598,
+    "desc":{
+    "firstActive":"1997-11-17",
+        "underlyingIssuerSymbol":"tls.asx",
+        "issuerName":"Telstra Corporation Ltd",
+        "isin":"AU000000TLS2",
+        "securityType":"01",
+        "shortDesc":"FPO",
+        "lastActive":"2017-11-23",
+        "abbrevDesc":"ORDINARY",
+        "longDesc":"ORDINARY FULLY PAID",
+        "shortName":"TELSTRA",
+        "underlyingIssuerName":"Telstra Corporation Ltd",
+        "gics":"50100000",
+        "issuerSymbol":"tls.asx",
+        "name":"Telstra Corporation",
+        "board":"155"
+},
+    "averages":{
+    "ytd":{
+        "vwap":4.257,
+            "tradeCount":7216,
+            "high":5.29,
+            "value":131947108.88,
+            "volume":31078290,
+            "low":3.37,
+            "open":5.16
+    },
+    "year":{
+        "vwap":4.333,
+            "tradeCount":7168,
+            "high":5.29,
+            "value":130053834.46,
+            "volume":30220046,
+            "low":3.37,
+            "open":5
+    },
+    "month":{
+        "vwap":3.489,
+            "tradeCount":7682,
+            "high":3.58,
+            "value":78446302.61,
+            "volume":22462787,
+            "low":3.405,
+            "open":3.55
+    },
+    "week":{
+        "vwap":3.461,
+            "tradeCount":7096,
+            "high":3.495,
+            "value":62806706.32,
+            "volume":18145702,
+            "low":3.405,
+            "open":3.43
+    }
+}
+}

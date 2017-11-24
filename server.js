@@ -25,14 +25,19 @@ const COLUMNS = [
   "kcal",
   "description"
 ];
+
 app.get("/api/food", (req, res) => {
-    axios.get('http://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=b1b15e88fa797225412429c1c50c122a1').then(function(response){
-        res.send(response.data.weather[0]);
+    let url ='https://quoteapi.com/api/v4/symbols/tls.asx?appID=af5f4d73c1a54a33&averages=1&liveness=delayed';
+    axios.get(url).then(function(response){
         //todo remove
         debugger;
-        console.log('response=',response.data.weather[0]);
+        
+        console.log('response.data.quote.open=',response.data.quote.open);
+
+        res.json(response.data.quote.open)
+
     })
-    //res.json({"name":"hoer"})
+
 });
 
 app.listen(app.get("port"), () => {
